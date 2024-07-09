@@ -8,15 +8,22 @@
   
   <title>Frontend Mentor | Product preview card component</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
   <main>
     <section class="container">
-      <div class="img-container"><img src="./images/image-product-mobile.jpg" alt="a bottle of Gabrielle Chanel perfume"></div>
+      <picture><img src="./images/image-product-mobile.jpg" alt="a bottle of Gabrielle Chanel perfume"></picture>
       <article class="content-container">
         <header>
-          <p class="category">Perfume</p>
+          <p class="category">PERFUME</p>
           <h1>Gabrielle Essence Eau De Parfum</h1>
         </header>
   
@@ -28,7 +35,10 @@
           <p class="original-price">$169.99</p>
         </div>
   
-        <button>Add to Cart</button>
+        <button type="button">
+          <img src="./images/icon-cart.svg" alt="an icon of a shopping cart">
+          Add to Cart
+        </button>
       </article>
     </section>
   </main>
