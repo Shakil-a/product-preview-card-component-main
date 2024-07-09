@@ -17,9 +17,10 @@ main{
     border-radius: 1em;
 }
 
-img {
+ picture img{
     max-width: 100%;
     border-radius: 1em 1em 0 0;
+    height: 100%;
 }
 
 
@@ -92,4 +93,23 @@ button{
 
 button img{
     margin-right: 0.5em;
+}
+
+
+@media only screen and (min-width: 768px){
+ 
+main{
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container picture,
+  .content-container {
+    flex: 1;
+  }
 }
